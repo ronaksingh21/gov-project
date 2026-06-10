@@ -1,4 +1,4 @@
-const pages = ['home','advaith','ronak','timeline','global','email'];
+const pages = ['home','advaith','ronak','timeline','global','email','sources'];
 
 function go(id) {
   document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
